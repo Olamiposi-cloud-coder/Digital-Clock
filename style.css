@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, sans-serif;
+    /* background: url(./favicon.ico) no-repeat center center; */
+    background: url(./bg\ img.jpg) repeat-x;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: rgb(197, 12, 12);
+    margin-bottom: 20px;
+}
+
+.clock {
+    display: flex;
+}
+
+.clock div {
+    margin: 0.5rem;
+    position: relative;
+}
+
+.clock span {
+    width: 130px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    background: rgba(133, 194, 161, 0.144);
+    opacity: 1.0;
+    color: rgb(218, 157, 160);
+}
+
+.clock .text {
+    height: 40px;
+    font-size: 0.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    background: rgb(161, 44, 44);
+    opacity: 1.0;
+}
+
+.clock #ampm {
+    position: absolute;
+    bottom: 0;
+    width: 90px;
+    height: 30px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    background: rgb(131, 10, 10);
+    opacity: 1.0;
+}
